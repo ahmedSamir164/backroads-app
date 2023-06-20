@@ -1,0 +1,59 @@
+.home {
+  width: 100%;
+  height: calc(100vh - 64px);
+  background-image: url("../../assets/images/main.jpeg");
+  background-size: cover;
+  color: white;
+  position: relative;
+  margin-top: 64px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.content p {
+  font-size: 18px;
+  letter-spacing: 3px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.content button {
+  padding: 20px;
+  color: rgb(44, 174, 186);
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.content button:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  transition-duration: 1s;
+}

@@ -1,0 +1,77 @@
+.tours-container {
+  margin: 64px 0;
+}
+.tours-container .special-header {
+  margin: 50px auto;
+  width: fit-content;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.tours-container .special-header span {
+  color: rgb(44, 174, 186);
+}
+
+.tours-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 20px;
+}
+
+.tour-card {
+  box-shadow: 1px 1px 1px 1px #b0b0b043;
+  background-color: rgb(244, 244, 244);
+}
+.tour-card:hover {
+  scale: 1.02;
+  transition-duration: 0.5s;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 3px 3px 3px 3px #b0b0b043;
+  cursor: pointer;
+}
+.tour-card .image {
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+.tour-card .image img {
+  width: 350px;
+  height: 250px;
+}
+.tour-card .image .date {
+  font-size: 14px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(135, 201, 181, 0.971);
+  z-index: 1;
+  color: rgb(1, 65, 65);
+}
+
+.tour-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.tour-details h2 {
+  margin: 15px 0;
+  letter-spacing: 5px;
+  font-size: 16px;
+}
+.tour-details p {
+  line-height: 2;
+  color: rgb(1, 138, 138);
+  font-size: 14px;
+}
+.tour-details .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(1, 138, 138);
+}
+
+.tour-details .info i {
+  margin-right: 5px;
+}

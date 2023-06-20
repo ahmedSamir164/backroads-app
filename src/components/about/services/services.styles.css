@@ -1,0 +1,45 @@
+.services {
+  background-color: rgb(230, 233, 233);
+  padding: 50px 20px;
+  margin-top: 64px;
+}
+
+.services .special-header {
+  margin: 50px auto;
+  width: fit-content;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(44, 174, 186);
+}
+
+.services .special-header span {
+  color: black;
+}
+.services-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.service-box i {
+  background-color: rgb(44, 174, 186);
+  color: rgb(40, 55, 2);
+  padding: 15px;
+  font-size: 30px;
+}
+
+.service-box h3 {
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin: 15px 0 5px 0;
+}
+.service-box p {
+  color: #023d32;
+}
